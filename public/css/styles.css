@@ -1,0 +1,107 @@
+:root {
+    /* Colores */
+    --amarillo: #EAC926;
+    --azul:#03264C;;
+    --Celeste:#1259c3;;
+    --Gris-oscuro:#666;;
+    --Gris-claro:#ebebeb;;
+    --verde:#39b54a;; 
+    /* Familias de Fuentes */
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight:500;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+
+header{
+    background-color: var(--amarillo);
+    padding: 0vw;
+    padding-bottom: 10vw;
+    border: 0;
+    width: 100%;
+}
+
+i{
+    margin: 1vw;
+}
+
+.banner{
+    width: 100%;
+    margin-top: 1vw;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+.burger-menu{
+    color: white;
+    margin: relative;
+    width: auto;
+    padding: 1.5%;
+    background-color: var(--Celeste);
+    position: absolute;
+    align-content: center;
+    margin-left: 40vw;
+    border-radius: 2vw;
+    font-size: 1em;
+}
+
+.burger{
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.img-product{
+    width: 100%;
+}
+
+footer{
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-footer{
+    color: var(--azul);
+    font-size: 2em;
+    margin-bottom: 5vw;
+}
+
+.p-footer{text-align: left;
+    font-weight: lighter;
+}
+
+.last-visit{
+    background-color: var(--Gris-claro);
+}
+
+
