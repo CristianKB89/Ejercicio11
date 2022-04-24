@@ -218,7 +218,8 @@ footer{
     border: solid 1px #39b54a;
     border-radius: 100px;
     color: #39b54a;
-    transition: all 0.5s;
+    transition: all 0.4s;
+    cursor: pointer;
 }
 .fa-truck:hover{
     transform: rotate(360deg);
@@ -300,6 +301,7 @@ footer article{
 
     footer i:hover{
         color: #03264C;
+        cursor: pointer;
     }
 
     .articles{
